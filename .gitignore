@@ -1,0 +1,4 @@
+bin/
+obj/
+src/Sonar/encoded_rules.yml
+src/Sonar/rules_config_files.txt

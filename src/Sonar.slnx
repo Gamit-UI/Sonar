@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Sonar.Tests/Sonar.Tests.csproj" />
+  <Project Path="Sonar/Sonar.csproj" />
+</Solution>
