@@ -18,7 +18,6 @@ internal sealed class NonInteractiveSetupHostedService(ILogger<NonInteractiveSet
             var setupOptions = await InitializeSetupAsync(cancellationToken);
             InitializeEventProcessor();
             InitializeAggregator();
-            await ExtractDependenciesAsync(setupOptions, cancellationToken);
             await InitializeDatabaseAsync(cancellationToken);
             await LoadRuleConfigurationAsync(setupOptions, new Progress<double>(), cancellationToken);
             await LoadRulesAsync(setupOptions, new Progress<double>(), onBeforeCount: () => { }, onCount: _ => { }, cancellationToken);

@@ -70,7 +70,6 @@ internal sealed class InteractiveSetupHostedService(ILogger<InteractiveSetupHost
                 {
                     InitializeEventProcessor();
                     InitializeAggregator();
-                    await ExtractDependenciesAsync(setupOptions, cancellationToken);
                     await InitializeDatabaseAsync(cancellationToken);
                     await LoadRuleConfigurationAsync(setupOptions, ctx, cancellationToken);
                     await LoadRulesAsync(setupOptions, ctx, cancellationToken);

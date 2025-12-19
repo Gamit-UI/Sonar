@@ -47,8 +47,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include=".\e_sqlite3.dll" />
-    <EmbeddedResource Include=".\uiohook.dll" />
     <EmbeddedResource Include=".\rules_config_files.txt" />
     <EmbeddedResource Include=".\encoded_rules.yml" />
     <EmbeddedResource Include=".\mitre-attack.json" />
