@@ -62,9 +62,3 @@ Hit `S` to display detection statistics:
 #### Help (Keystroke `H`)
 
 Hit `H` to display help.
-
----
-
-## License
-
-Distributed under the GPLv3 License.
